@@ -10,6 +10,7 @@ import (
 	"github.com/go-resty/resty/v2"
 	"github.com/mitchellh/go-homedir"
 	"github.com/spf13/cobra"
+	//vpier是一个配置文件管理的工具
 	"github.com/spf13/viper"
 
 	"xiudong/showstart"
@@ -48,6 +49,7 @@ var rootCmd = &cobra.Command{
 	// Run: func(cmd *cobra.Command, args []string) { },
 }
 
+//Execute方法将所有的子命令添加到root命令中，并且自动设置调用的flags
 // Execute adds all child commands to the root command and sets flags appropriately.
 // This is called by main.main(). It only needs to happen once to the rootCmd.
 func Execute() {
@@ -67,6 +69,7 @@ func init() {
 		&cfgFile,
 		"config",
 		"",
+		//这个是默认的配置文件路径？
 		"config file (default is $HOME/.showstart.yaml)",
 	)
 

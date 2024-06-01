@@ -2,11 +2,13 @@
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 **Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
 
-- [localStorage 导入导出](#localstorage-%E5%AF%BC%E5%85%A5%E5%AF%BC%E5%87%BA)
+- [localStorage 导入导出](#localstorage-导入导出)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
 ### localStorage 导入导出
+
+这个插件可以在chrome的插件仓库那里找到
 
 可以考虑使用 Chrome
 插件: [LocalStorage Manager](https://chrome.google.com/webstore/detail/localstorage-manager/fkhoimdhngkiicbjobkinobjkoefhkap)
